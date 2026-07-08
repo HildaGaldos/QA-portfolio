@@ -1,4 +1,4 @@
-# Día 1 — Introducción a QA Manual
+# Día 1: Introducción a QA Manual
 
 ## Objetivo
 
