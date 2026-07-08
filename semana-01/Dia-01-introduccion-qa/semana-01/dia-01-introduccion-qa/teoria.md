@@ -1,28 +1,41 @@
-## Introducción a QA Manual
+## ¿Qué es QA?
 
-## Objetivo
+QA significa Quality Assurance. Es el proceso que busca asegurar que un producto de software tenga buena calidad y cumpla con los requisitos definidos.
 
-Comprender los conceptos básicos de QA Manual y conocer las principales responsabilidades de un QA Trainee.
+## ¿Qué es Testing?
 
-## Temas estudiados
+Testing es la actividad de probar una aplicación para verificar si funciona correctamente o si tiene errores.
 
-* Qué es QA.
-* Qué es testing.
-* Qué hace un QA Trainee.
-* Qué es un bug.
-* Qué es un caso de prueba.
-* Qué es resultado esperado.
-* Qué es resultado actual.
-* Estados básicos de una prueba: Passed, Failed, Blocked y Not Run.
+## Diferencia entre QA y Testing
 
-## Resumen personal
+QA es un proceso más amplio que incluye prevención, revisión, mejora y control de calidad. Testing es una actividad específica dentro de QA que consiste en ejecutar pruebas.
 
-QA significa Quality Assurance, o aseguramiento de calidad. Su objetivo es ayudar a que un producto de software funcione correctamente y cumpla con los requisitos esperados.
+## ¿Qué es un bug?
 
-El testing es una actividad dentro de QA que consiste en probar una aplicación para encontrar errores, validar funcionalidades y asegurar que el sistema se comporte como debería.
+Un bug es un error, defecto o comportamiento incorrecto dentro de una aplicación.
 
-Un QA Trainee puede encargarse de crear casos de prueba, ejecutar pruebas manuales, reportar bugs, tomar evidencias y validar correcciones.
+Ejemplo:
 
-## Conclusión del día
+El sistema debería mostrar un mensaje de error cuando la contraseña es incorrecta, pero no muestra nada.
 
-Hoy aprendí que QA no solo consiste en encontrar errores, sino también en prevenir problemas, documentar pruebas y comunicar fallos de manera clara. También entendí que antes de aprender automatización, es importante dominar los fundamentos de QA Manual.
+## ¿Qué es un caso de prueba?
+
+Un caso de prueba es un conjunto de pasos que permite verificar si una funcionalidad cumple con el comportamiento esperado.
+
+## Resultado esperado
+
+Es lo que debería ocurrir según el requisito o comportamiento correcto del sistema.
+
+## Resultado actual
+
+Es lo que realmente ocurre cuando se ejecuta la prueba.
+
+## Estados de una prueba
+
+| Estado  | Significado                                 |
+| ------- | ------------------------------------------- |
+| Passed  | La prueba fue exitosa                       |
+| Failed  | La prueba falló                             |
+| Blocked | La prueba no pudo ejecutarse por un bloqueo |
+| Not Run | La prueba aún no fue ejecutada              |
+
